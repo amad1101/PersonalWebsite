@@ -1,6 +1,22 @@
 <template>
   <div class="app">
+    <div class="container">
+      <div class="inner">
+        <nav>
+          <router-link :to="/" id="logo">Amadou Diallo</router-link>
 
+
+          <ul>
+            <li><router-link :to="/">Home</router-link></li>
+            <li><router-link :to="/about">About</router-link></li>
+            <li><router-link :to="/quotes">Quotes</router-link></li
+          </ul>
+        </nav>
+        <transition name="fade" mode="out-in">
+          <router-view />
+        </transition>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -11,11 +27,11 @@ export default {
 </script>
 
 <style>
-.app {
+/* .app {
   position: relative;
   width: 100%;
   height: 400px;
-  background: rgba(40, 40, 40, 0.5);
+  background: #ff0000;
   box-sizing: border-box;
   padding: 30px;
   margin-bottom: 100px;
@@ -31,7 +47,11 @@ export default {
   right: 0;
   bottom: 0;
   left: 0;
-  transform-origin: top left;
-  transform: skewY(4deg);
+  transform-origin: 100%;
+  transform: skewY(-4deg);
 }
+body, html {
+  margin: 0;
+  height: 100%;
+} */
 </style>
