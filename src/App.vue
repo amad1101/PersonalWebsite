@@ -31,13 +31,8 @@ export default {
   position: relative;
   width: 100%;
   height: 400px;
-<<<<<<< HEAD
   background: #7A39DB;
   /* box-sizing: border-box;
-=======
-  background: #ff0000;
-  box-sizing: border-box;
->>>>>>> bb23e9ca1b1189c0f51b45844a29284d4256d8a2
   padding: 30px;
   margin-bottom: 100px; */
   opacity: 50%;
@@ -53,14 +48,9 @@ export default {
   right: 0;
   bottom: 0;
   left: 0;
-<<<<<<< HEAD
   transform-origin: top right;
   transform: skewY(-4deg);
   opacity: 50%;
-=======
-  transform-origin: 100%;
-  transform: skewY(-4deg);
->>>>>>> bb23e9ca1b1189c0f51b45844a29284d4256d8a2
 }
 body, html {
   margin: 0;
